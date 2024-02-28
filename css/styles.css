@@ -14,6 +14,7 @@
 body {
   background-color: var(--white-opacity);
   color: var(--text);
+  font-family: Roboto, sans-serif;
 }
 
 h1,
@@ -29,14 +30,18 @@ a {
   text-decoration: none;
   text-decoration-color: var(--title-text-color);
 }
-
+/* Логотип */
 .logo-black {
   color: var(--title-text-color);
+  font-family: raleway, sans-serif;
+
 }
 
 .logo {
   color: var(--accent-color);
+  font-family: raleway, sans-serif;
 }
+
 .navigation {
   color: var(--text);
 }
@@ -69,13 +74,10 @@ a {
 .footer-adress {
   color: var(--white-opacity);
 }
-.button-item:hover,
-.button-item:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
+
 .logo-white {
   color: var(--white-color);
+  font-family: raleway, sans-serif;
 }
 .addres-white {
   color: var(--white-color);
@@ -83,4 +85,10 @@ a {
 .button-item {
   background-color: var(--bgrbutton);
   color: var(--title-text-color);
+}
+
+.button-item:hover,
+.button-item:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
