@@ -14,13 +14,28 @@
 body {
   background-color: var(--white-opacity);
   color: var(--text);
+
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.003em
 }
 
 h1,
 h2,
 h3 {
   color: var(--title-text-color);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+}
+
+h3 {
+font-size: 14px;
+font-weight: 700;
+line-height: 1.14;
 }
 
 ul {
@@ -42,8 +57,14 @@ a {
   font-family: raleway, sans-serif;
 }
 
+/* Навігація */
 .navigation {
   color: var(--text);
+
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02;
+  line-height: 1,14;
 }
 
 .navigation-item.current {
@@ -63,8 +84,46 @@ a {
   color: var(--accent-color);
 }
 
+/* Герой */
+.hero-title {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  text-align: center;
+}
+
+.button {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 6%;
+}
+
+/* Наші переваги */
+
+.perevagu-text {
+font-size: 14px;
+font-weight: 400;
+line-height: 1.71;
+}
+
+
+/* Command */
+
+.command-name {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.18;
+}
+
 .command-profession {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.19;
 }
 
 .footer-background {
@@ -82,13 +141,41 @@ a {
 .addres-white {
   color: var(--white-color);
 }
+
+.footer-adress {
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+
 .button-item {
   background-color: var(--bgrbutton);
   color: var(--title-text-color);
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
 }
 
 .button-item:hover,
 .button-item:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+
+.portfolio-examples {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2.0;
+  letter-spacing: 6%;
+  text-align: left;
+}
+
+.portfolio-var {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.85;
+  letter-spacing: 0.003em;
 }
